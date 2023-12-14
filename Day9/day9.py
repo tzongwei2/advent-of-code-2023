@@ -5,7 +5,6 @@ def f(n):
         return 0
     
     else:
-
         temp = []
         for i in range(len(n)-1):
             temp.append(n[i+1]-n[i])
